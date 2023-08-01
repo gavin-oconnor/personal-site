@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +20,241 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-container {
+  height: 200px;
+  background-color: #69d2e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  font-family: 'Lexend Mega';
+  text-align: center;
+  font-size: 80px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8d6b3;
+  height: 40px;
+  border-top: 1.5px black solid;
+  border-bottom: 1.5px black solid;
+}
+
+.link-container {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-align: center;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1.5px;
+  background: #000;
+  transition: width .4s ease-in;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+.left-image-row-container {
+  height: 400px;
+  min-width: 900px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.left-image-row-container-l {
+  flex: 0.4 0.4 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-image-row-container-r {
+  flex: 0.6 0.6 0;
+}
+
+.lirc-h2 {
+  margin-top: 18px;
+  font-family: 'Lexend Mega';
+}
+
+.lirc-h3 {
+  font-size: 22px;
+  font-family: 'Public Sans';
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.lirc-p {
+  font-size: 20px;
+  font-family: 'Public Sans';
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.lirc-img {
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.right-image-row-container-r {
+  flex: 0.6 0.6 0;
+  padding-left: 20px;
+}
+
+.rirc-h2 {
+  margin-top: 18px;
+  font-family: 'Lexend Mega';
+}
+
+.rirc-h3 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 22px;
+  font-family: 'Public Sans';
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.rirc-p {
+  padding-left: 8px;
+  font-size: 20px;
+  font-family: 'Public Sans';
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.projects-container-row {
+  display: flex;
+  width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  height: 160px;
+  
+}
+
+.project-widget-container {
+  font-family: 'public sans';
+  min-width: 300px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px black solid;
+  box-shadow: #000 10px 10px;
+  padding: 10px;
+}
+
+.pw-links-container {
+  display: flex;
+}
+
+.pw-see-more {
+  cursor: default;
+  flex: 0.5 0.5 0;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pw-see-more:hover {
+  background-color: #000;
+  color: white;
+}
+
+.pw-title {
+  margin-bottom: 4px;
+}
+
+.pw-content {
+  margin-bottom: 4px;
+}
+
+.bold {
+  font-weight: bold;
+  /* font-weight: 500; */
+}
+
+.proj-container {
+  display: flex;
+}
+
+.proj-left {
+  flex: 1 1 0;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.proj-right {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.proj-img {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.proj-h {
+  font-family: 'Lexend Mega';
+}
+
+.proj-p {
+  padding-left: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-family: 'public sans';
+  font-size: 20px;
+}
+
+.proj-btn-container {
+  display: flex;
+  height: 20px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  column-gap: 8px;
+}
+
+.proj-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px black solid;
+  flex: 1 1 0;
+  font-family: 'public sans';
+}
+
+.proj-btn:hover {
+  background-color: #000;
+  color: white;
+}
+
+
+
+
