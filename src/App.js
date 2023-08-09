@@ -8,11 +8,12 @@ const App = () => {
   const projs = [
     [{
         name : "Rave (Mobile Social Media Application)",
-        stack : "Python (Flask), Javascript (React Native), Firestore (switching soon)",
-        lines : "4200 (so far)",
-        github : null,
-        extended : "Rave is a startup and application I have been working on since May 2023. Rave is going to initially release as a mobile application, and I have been using my skills in Javascript and React Native to create the app. On the front-end this project has taught me a lot about making attractive, mobile-friendly user-interfaces and implementing these interfaces in code. For our server, I designed a REST API using Python and Flask. Creating the API has taught me about authentication/authorization (using JSON Web Tokens), storing data/images efficiently (using Google Cloud), designing algorithms (such as our search/explore ranking algorithm), and many other lessons about system design.",
-        images: []
+        stack : "Python (Flask), Javascript (React Native), Firestore",
+        lines : "~4600 (so far)",
+        github : "Private Reposity on Github",
+        extended : "Rave is a startup and application I have been working on since May 2023. Rave is going to initially release as a mobile application, and I have been using my skills in Javascript and React Native to create the app. On the front-end this project has taught me a lot about making attractive, mobile-friendly user-interfaces and implementing these interfaces in code. For our server, I designed a REST API using Python and Flask. Creating the API has taught me about authentication/authorization (using JSON Web Tokens), storing data/images efficiently (using Google Cloud), designing algorithms (such as our search/explore ranking algorithm), and many other lessons about system design. The pictures in order display: a user's feed of raves (reviews), the expanded view of a rave (review) where you can see ratings breakdown and read comments, a \"Snap Map\" type feature where you can see a map of restaurants near you and click into them for more information, a view of a user's profile where you can see all of their raves (reviews), a view of a user's profile where you can see their posts (an option for sharing experiences without fully reviewing a restaurant",
+        images: [require("./Assets/rave_1.png"),require("./Assets/rave_2.png"),require("./Assets/rave_3.png"),require("./Assets/rave_4.png"),require("./Assets/rave_5.png")],
+        video: false
     },
     {
         name : "Poker Payout Calculator",
@@ -20,7 +21,8 @@ const App = () => {
         lines : "220",
         github : "https://github.com/gavin-oconnor/GavsPokerCalc3/tree/main",
         extended : "This is a poker calculator I designed to calculate payouts between my friends. During the summer, my friends and I play a lot of poker, but often we'd end up with unaccounted for chips or people not receiving all the money the chips showed them winning. This is a third iteration of the poker calculator. The original two used a client and server to do calculations, but I eventually realized that all the calculation could be done on the front-end. I think this tool is a good example of identifying a problem and hacking together a piece of software to solve it.",
-        images : [require("./Assets/poker_calc_0.png"),require("./Assets/poker_calc_1.png")]
+        images : [require("./Assets/poker_calc_0.png"),require("./Assets/poker_calc_1.png")],
+        video: false,
     },
     {
         name : "Djikstra's Algorithm Maze Solver",
@@ -28,31 +30,26 @@ const App = () => {
         github : "",
         lines : "150",
         extended : "This project is based on <a href='https://www.youtube.com/watch?v=rop0W4QDOUI&t=1s' target=_blank>this Computerphile video</a> about algorithmically solving a maze where the input is a picture. My code takes in an MxN maze where black pixels are walls and white pixels are paths. The program then converts this image into a graph where there are only nodes at the junctions, while nodes that are solely path without the ability to turn become edges. Once, I have created the graph, I implement Djiksra's Algorithm using a priority queue and solve the maze. The path used to solve the maze is then drawn onto the image and the image is output again as a new file.",
-        images: [require("./Assets/maze_0.png"),require("./Assets/maze_1.png")]
+        images: [require("./Assets/maze_0.png"),require("./Assets/maze_1.png")],
+        video: false,
     },],
     [{
         name : "Fourier Series Drawing Visualization",
         stack : "Python (Pygame)",
         github : "",
         lines : "175",
-        extended : "",
-        images: [] 
+        extended : "This project is based on a <a href='https://www.youtube.com/watch?v=r6sGWTCMz2k&t=10s' target=_blank>3Blue1Brown video</a> about Fourier Series. The fourier series is a technique to decompose a function into a series of sine and cosine waves. The program takes in a path (drawing) like this house and turns it into a parameterized function f(t). After a series of calculations, we end up with the initial values and frequencies of a series of waves. We the represent these waves as a series of rotating vectors which trace the image.",
+        images: [require("./Assets/fourier.mov")],
+        video: true, 
     },
     {
         name : "Mandelbrot Set Visualizer",
         stack : "Python (Pygame)",
         github : "",
         lines : "150",
-        extended : "",
-        images: []  
-    },
-    {
-        name : "Super Mario Level Clone",
-        stack : "Java (Processing)",
-        github : "",
-        lines : "?",
-        extended : "",
-        images: []
+        extended : "This program uses the pygame library to visualize the Mandelbrot Set: a fractal generated by an iterative complex function. The program allows for movement of the 'camera' in all directions and a zoom in/out feature.",
+        images: [require("./Assets/mandelbrot_0.png")],
+        video: false
     },]
 
 ]

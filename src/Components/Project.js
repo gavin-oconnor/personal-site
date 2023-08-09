@@ -14,6 +14,7 @@ const Project = ({projs}) => {
     const last = () => {
       imageIndex === 0 ? setImageIndex(projs[i1][i2].images.length-1) : setImageIndex(imageIndex-1)
     }
+    console.log(projs)
   return (
     <>
     <Header/>
@@ -33,7 +34,8 @@ const Project = ({projs}) => {
         </p>
       </div>
       <div className="proj-right">
-        {<img className="proj-img" src={projs[i1][i2].images[imageIndex]}/>}
+        {!projs[i1][i2].video ? <img className="proj-img" src={projs[i1][i2].images[imageIndex]}/> : <video controls className="proj-img" src={projs[i1][i2].images[imageIndex]}/>}
+
         <div className="proj-btn-container">
           <div className="proj-btn" onClick={last}>
             <p className="proj-btn-p">Previous</p>
