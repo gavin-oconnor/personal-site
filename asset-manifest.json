@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.03263c98.css",
-    "main.js": "/personalwebsite/static/js/main.6c2e6665.js",
-    "static/js/787.749b4a44.chunk.js": "/personalwebsite/static/js/787.749b4a44.chunk.js",
-    "static/media/fourier.mov": "/personalwebsite/static/media/fourier.5cc5ed4c64e01ca6a837.mov",
-    "static/media/rave_2.png": "/personalwebsite/static/media/rave_2.6fba779f3ad2357f3186.png",
-    "static/media/rave_3.png": "/personalwebsite/static/media/rave_3.1a9b357356f586cc1811.png",
-    "static/media/rave_5.png": "/personalwebsite/static/media/rave_5.3622e5022832334e71d8.png",
-    "static/media/rave_4.png": "/personalwebsite/static/media/rave_4.b909b329d4aea00ce356.png",
-    "static/media/rave_1.png": "/personalwebsite/static/media/rave_1.f7a8c4d8d6633191a32b.png",
-    "static/media/interests_logo.png": "/personalwebsite/static/media/interests_logo.01a068672f1146849936.png",
-    "static/media/poker_calc_0.png": "/personalwebsite/static/media/poker_calc_0.e651c46ab56e3ad466bf.png",
-    "static/media/poker_calc_1.png": "/personalwebsite/static/media/poker_calc_1.55e24fcc92660804301b.png",
-    "static/media/skills_logo.png": "/personalwebsite/static/media/skills_logo.32e181f407d56c45658d.png",
-    "static/media/scu_logo.png": "/personalwebsite/static/media/scu_logo.4a2806a30e47eb4fe464.png",
-    "static/media/maze_1.png": "/personalwebsite/static/media/maze_1.05d714ac607d3422c34d.png",
-    "static/media/maze_0.png": "/personalwebsite/static/media/maze_0.7e60c89f41284d8cccc7.png",
-    "static/media/mandelbrot_0.png": "/personalwebsite/static/media/mandelbrot_0.640a6074c104a3053219.png",
-    "index.html": "/personalwebsite/index.html",
-    "main.03263c98.css.map": "/personalwebsite/static/css/main.03263c98.css.map",
-    "main.6c2e6665.js.map": "/personalwebsite/static/js/main.6c2e6665.js.map",
-    "787.749b4a44.chunk.js.map": "/personalwebsite/static/js/787.749b4a44.chunk.js.map"
+    "main.css": "/personal-site/static/css/main.03263c98.css",
+    "main.js": "/personal-site/static/js/main.3f504699.js",
+    "static/js/787.749b4a44.chunk.js": "/personal-site/static/js/787.749b4a44.chunk.js",
+    "static/media/fourier.mov": "/personal-site/static/media/fourier.5cc5ed4c64e01ca6a837.mov",
+    "static/media/rave_2.png": "/personal-site/static/media/rave_2.6fba779f3ad2357f3186.png",
+    "static/media/rave_3.png": "/personal-site/static/media/rave_3.1a9b357356f586cc1811.png",
+    "static/media/rave_5.png": "/personal-site/static/media/rave_5.3622e5022832334e71d8.png",
+    "static/media/rave_4.png": "/personal-site/static/media/rave_4.b909b329d4aea00ce356.png",
+    "static/media/rave_1.png": "/personal-site/static/media/rave_1.f7a8c4d8d6633191a32b.png",
+    "static/media/interests_logo.png": "/personal-site/static/media/interests_logo.01a068672f1146849936.png",
+    "static/media/poker_calc_0.png": "/personal-site/static/media/poker_calc_0.e651c46ab56e3ad466bf.png",
+    "static/media/poker_calc_1.png": "/personal-site/static/media/poker_calc_1.55e24fcc92660804301b.png",
+    "static/media/skills_logo.png": "/personal-site/static/media/skills_logo.32e181f407d56c45658d.png",
+    "static/media/scu_logo.png": "/personal-site/static/media/scu_logo.4a2806a30e47eb4fe464.png",
+    "static/media/maze_1.png": "/personal-site/static/media/maze_1.05d714ac607d3422c34d.png",
+    "static/media/maze_0.png": "/personal-site/static/media/maze_0.7e60c89f41284d8cccc7.png",
+    "static/media/mandelbrot_0.png": "/personal-site/static/media/mandelbrot_0.640a6074c104a3053219.png",
+    "index.html": "/personal-site/index.html",
+    "main.03263c98.css.map": "/personal-site/static/css/main.03263c98.css.map",
+    "main.3f504699.js.map": "/personal-site/static/js/main.3f504699.js.map",
+    "787.749b4a44.chunk.js.map": "/personal-site/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03263c98.css",
-    "static/js/main.6c2e6665.js"
+    "static/js/main.3f504699.js"
   ]
 }
